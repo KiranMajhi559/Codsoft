@@ -42,10 +42,22 @@ html,body{
     font-size: 20px;
     margin-right: 5px;
 }
+#nav i:hover{
+    color: red;
+    font-style:bold;
+}
+#nav h1 i:hover{
+    color: red;
+    font-style:bold;
+}
 #nav h5{
     font-size: 14px;
     font-weight: 600;
     text-transform: capitalize;
+}
+#nav-prt2 h5:hover{
+    color: red;
+    font-style: bold;
 }
 #nav img{
    height: 100px;
@@ -109,9 +121,14 @@ html,body{
     font-weight: 700;
     border-color: red;
 }
+
 #left button i{
     margin-right: 15px;
-} 
+}
+#left button:hover{
+    background-color: darkred;
+    font-style: bold;
+}  
 #heart i{
     /* background-color: rgb(9, 255, 0); */
     position: relative;
@@ -156,6 +173,14 @@ html,body{
     border-bottom:2px solid white;
 
 }
+#elem1 h1:hover{
+    color: red;
+    font-style:bold;
+}
+#elem1 i:hover{
+    color: red;
+    font-style:bold;
+}
 #elem1 h1{
     font-size: 18px;
     font-weight: 600;
@@ -168,6 +193,10 @@ html,body{
     font-weight: 600;
     margin-bottom: 10px;
     padding-top: 12px;
+}
+#elem2 h1:hover{
+    color: red;
+    font-style: bold;
 }
 #elem2 p{
     font-size: 11px;
