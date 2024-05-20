@@ -1,20 +1,24 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: gilroy;
     color: #fff;
 }
-html,body{
+
+html,
+body {
     height: 100%;
     width: 100%;
 }
-#main{
+
+#main {
     height: 100%;
     width: 100%;
-    background-color:#000;
+    background-color: #000;
 }
-#nav{
+
+#nav {
     height: 140px;
     width: 100%;
     /* background-color: red; */
@@ -24,7 +28,7 @@ html,body{
     justify-content: space-between;
 }
 
-#nav-prt2{
+#nav-prt2 {
     display: flex;
     /* background-color: blue; */
     width: 50%;
@@ -32,42 +36,53 @@ html,body{
     justify-content: space-between;
 
 }
-#nav h1{
+
+#nav h1 {
     font-size: 25px;
     text-transform: capitalize;
     display: flex;
     align-items: center;
 }
-#nav i{
+
+#nav i {
     font-size: 20px;
     margin-right: 5px;
 }
-#nav i:hover{
-    color: red;
-    font-style:bold;
-}
-#nav h1 i:hover{
-    color: red;
-    font-style:bold;
-}
-#nav h5{
-    font-size: 14px;
-    font-weight: 600;
-    text-transform: capitalize;
-}
-#nav-prt2 h5:hover{
+
+#nav i:hover {
     color: red;
     font-style: bold;
 }
-#nav img{
-   height: 100px;
+
+#nav h1 i:hover {
+    color: red;
+    font-style: bold;
 }
-#line{
+
+#nav h5 {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: 0.02s ease-in;
+}
+
+#nav-prt2 h5:hover {
+    color: red;
+    font-style: bold;
+}
+
+#nav img {
+    height: 100px;
+}
+
+#line {
     width: 60px;
     height: 3px;
     background-color: red;
 }
-#content{
+
+#content {
     height: calc(100% - 140px);
     width: 100%;
     /* background-color: aquamarine; */
@@ -75,43 +90,50 @@ html,body{
     position: relative;
     justify-content: space-between;
 }
-#left{
+
+#left {
     height: 80%;
     width: 41%;
     /* background-color: red; */
     padding: 75px 100px;
     margin-bottom: 5%;
 }
-#right{
+
+#right {
     height: 100%;
-    width:36%;
+    width: 36%;
     /* background-color: red; */
     padding: 180px 80px;
 }
-#center{
+
+#center {
     height: 100%;
     width: 22%;
     /* background-color:red; */
     padding-top: 15px;
 }
-#left h1{
+
+#left h1 {
     font-size: 45px;
     line-height: 45px;
     font-weight: 800;
     margin-bottom: 5%;
 }
-#left h1 span{
+
+#left h1 span {
     color: red;
     font-weight: 550;
 }
-#left p{
+
+#left p {
     font-size: 15px;
     width: 80%;
     line-height: 25px;
     margin-bottom: 10%;
     font-weight: 50;
 }
-#left button{
+
+#left button {
     background-color: red;
     padding: 15px 22px;
     border-radius: 40px;
@@ -120,16 +142,20 @@ html,body{
     align-items: center;
     font-weight: 700;
     border-color: red;
+    border: 0px;
+    transition: 0.05s ease-in-out;
 }
 
-#left button i{
+#left button i {
     margin-right: 15px;
 }
-#left button:hover{
+
+#left button:hover {
     background-color: darkred;
     font-style: bold;
-}  
-#heart i{
+}
+
+#heart i {
     /* background-color: rgb(9, 255, 0); */
     position: relative;
     left: 170px;
@@ -137,7 +163,8 @@ html,body{
     font-size: 20px;
     color: red;
 }
-#center-bg{
+
+#center-bg {
     /* background-color: blue; */
     height: 85%;
     width: 100%;
@@ -149,56 +176,66 @@ html,body{
     background-position: 30% 80%;
     filter: blur(1px);
 }
-#content>img{
+
+#content>img {
     height: 100%;
     bottom: 30px;
-    
+
     position: absolute;
     left: 52%;
     z-index: 100;
-    transform: translate(-50%,-0);
+    transform: translate(-50%, -0);
 }
-#right-elems{
+
+#right-elems {
     /* background-color: red; */
     width: 330px;
-    
+
 }
-#elem1{
+
+#elem1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 60px;
     /* background-color: blue; */
     opacity: 0.6;
-    border-bottom:2px solid white;
+    border-bottom: 2px solid white;
 
 }
-#elem1 h1:hover{
+
+#elem1 h1:hover {
     color: red;
-    font-style:bold;
+    font-style: bold;
 }
-#elem1 i:hover{
+
+#elem1 i:hover {
     color: red;
-    font-style:bold;
+    font-style: bold;
 }
-#elem1 h1{
+
+#elem1 h1 {
     font-size: 18px;
     font-weight: 600;
 }
-#elem1 i{
+
+#elem1 i {
     font-size: 19px;
 }
-#elem2 h1{
+
+#elem2 h1 {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
     padding-top: 12px;
 }
-#elem2 h1:hover{
+
+#elem2 h1:hover {
     color: red;
     font-style: bold;
 }
-#elem2 p{
+
+#elem2 p {
     font-size: 11px;
     width: 80%;
     opacity: 0.6;
