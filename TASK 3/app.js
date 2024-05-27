@@ -1,5 +1,5 @@
 let inputBox = document.getElementById('inputBox')
-let buttons = documemt.querySelectorAll('button')
+let buttons = document.querySelectorAll('button')
 
 let string = ''
 
